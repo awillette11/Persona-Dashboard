@@ -1032,9 +1032,7 @@ th {
 
   }
  
-    tr:nth-child(odd) { 
-    }
-
+   
     td:nth-last-child(1) {
         text-align: justify;
     }
