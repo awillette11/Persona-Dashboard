@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona Dashboard</title>
+
+     <!-- Reset CSS -->
+    <link rel="stylesheet" href="vendor/reset.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts - Poppins -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Google Fonts - Roboto -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous"/>
+
+    <!-- JQuery -->
+    <script src="vendor/jquery.js"></script>
+    <script src="app.js"></script>
+
+
+</head>
+
+<body>
+    <div id="container">
+
+<!-- NAVBAR 
+
+    <nav class="main-navbar">
+
+        <ul class="main-nav-left">
+            <li class="left-nav-item">
+                <i class="fas fa-bars"></i>
+            </li>
+        </ul>
+
+        <div class="mobile-logo">
+            <h1>infi<span>nite</span></h1>
+        </div>
+   
+        <div class="right-menu-items">
+            <img src="icons/avatar.svg"> 
+            <a href="#">Jacob Banks</a>
+        </div>
+        
+    </nav>
+
+    -->
+
+
+<!-- SIDE NAVBAR -->
+
+    <aside id="sidebar">
+
+        <div class="sidebar-menu">
+
+            <div class="logo">
+                <i class="fas fa-user-astronaut fa-xs"></i>  
+                <p class="logo-text">infi<span>nite</span></p>
+            </div>
+
+            <h1 class="menu-heading">Menu</h1>
+
+            <div class="active-menu-link">
+                <i class="far fa-user-circle active-icon fa-fw"></i>
+                
+                <a href="#" class="sidebar-item active-link">Persona</a>
+            </div>
+
+            <div class="sidebar-link">
+                <i class="far fa-address-card fa-fw"></i>
+                <a href="#" class="sidebar-item">About Project</a>
+            </div>
+
+            <div class="sidebar-link">
+                <i class="far fa-file fa-fw"></i>
+                <a href="#" class="sidebar-item">Resume</a>
+            </div>
+
+            <div class="sidebar-link">
+                <i class="far fa-chart-bar fa-fw"></i>
+                <a href="#" class="sidebar-item">UX Portfolio</a>
+            </div>
+
+            <div class="sidebar-link">
+                <i class="fas fa-bezier-curve fa-fw"></i>
+                <a href="#" class="sidebar-item">Art Work</a>
+            </div>
+
+            <div class="sidebar-link">
+                <i class="fas fa-laptop-code fa-fw"></i>
+                <a href="#" class="sidebar-item">Projects</a>
+            </div>
+
+            <!-- Project Menu Items  
+
+            <h1 class="menu-heading">Projects</h1>
+
+            <div class="sidebar-link">
+                <a href="#" class="project-item">Landing Page</a>
+            </div>
+
+            <div class="sidebar-link">
+                <a href="#" class="project-item">E-commerce Site</a>
+            </div>
+
+            <div class="sidebar-link">
+                <a href="#" class="project-item">Mobile App</a>
+            </div>
+
+            <div class="sidebar-link">
+                <a href="#" class="project-item">Airbnb Clone</a>
+            </div>
+        -->
+
+
+       
+        </div>  <!-- SIDEBAR-MENU DIV -->
+        
+    </aside>
+
+ <!------------------------- MAIN CARDS ------------------------------------->
+
+   <main>
+
+       <div class="main-container">
+
+
+<!-- WELCOME GREETING -->
+
+            <div class="greeting-container">
+                <h1>Dashboard</h1>
+                <p>Hello, World! Welcome to my Persona Dashboard. Feel free to play around! </p>
+            </div>
+
+
+ <!----------------------------- TOP ROW CARDS -------------------------------->
+            <div class="top-row-container">
+                
+                <div class="row">
+
+<!----------------- PROFILE CARD -->
+
+                    <div class="col-3 col-6 profile-card">
+                           
+                        <div class="pro-label">
+                                <p>PRO</p>
+                            </div>
+
+                           <div class="profile-pic-circle">
+                               <div class="circle"></div>
+                               <div class="circle-one"></div>
+
+                                <img src="images/dashboard-profile-pic.svg" class="profile-pic">  
+                           </div>   
+                           <div class="profile-content">
+                           <h2 class="name-header">Andrene Willette</h2>
+                           <h3 class="ux-title">UX Developer</h3>
+
+            
+
+                          
+                            <div class="button-container">
+
+                                <span class="contact-me">Get In Touch!</span>
+
+                                <a class="icon" href="#"> <i class="fab fa-github button-icon"></i> </a>
+
+                                <a class="icon" href="https://www.linkedin.com/in/andrenewillette/"> <i class="fab fa-linkedin-in button-icon"></i> </a>
+
+                                <a class="icon" href="#"> <i class="fas fa-at button-icon"></i></a>
+                                
+                            </div>
+
+                        </div>
+                
+                    </div> <!-- COL-3 PROFILE CARD DIV ENDS HERE -->
+                   
+<!----------------- FUN FACTS CARD -->
+
+
+                    <div class="col-3 col-6 second fun-facts">
+
+                        <div class="title-header fun-facts-header ">
+                            <h3 class="header-three ">Fun Facts</h3>
+                        </div>   
+
+                        <div class="quote-content">
+
+                        </div>
+                        <div class="fun-facts-content">
+                            <div class="usvi-fact">
+                                
+                                <p>Born and raised on the beautiful island of St. Thomas, U.S. Virgin Islands.                                   
+                                    <br> <br>
+
+                                     The U.S Virgin Islands is located in the Caribbean Sea and comprised of three main islands St. Croix, St. John and St. Thomas plus 50 smaller islands, cays and islets.
+  
+
+                                <!-- 
+                                    <br> <br>
+
+                                An absolute water lover, so whenever I’m home, I enjoy spending time on the beach and visiting family and friends.
+                                
+                                -->  
+
+                                <div class="fun-facts-indicator">
+                                    <div class="indicator"></div>
+                                    <div class="indicator"></div>
+                                    <div class="indicator"></div>
+                                </div>
+
+                            </div>
+
+                                <!-- 
+                                    <div class="fun-facts-icons">
+                                        <img src="icons/usvi-icon.svg" alt="">
+                                        <img src="icons/life-path-icon.svg" alt="">
+                                        <img src="icons/lgbt-icon.svg" alt="">
+                                    </div>
+                                     <br> <br>
+                                    An absolute water lover, so whenever I’m home, I enjoy spending time on the beach and visiting family and friends. </p>  
+                  
+
+                                    <div class="life-path-fact">
+                                        <img src="icons/life-path-icon.svg" alt="">
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque numquam amet quae non totam similique porro odit assumenda eligendi esse!</p>
+
+                                    </div>
+
+                                    <div class="lgbt-fact">
+
+                                    
+                                        <img src="icons/lgbt-icon.svg" alt="">
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque numquam amet quae non totam similique porro odit assumenda eligendi esse!</p>
+
+                                    </div>   
+                                -->  
+                            
+         
+                        </div>
+
+
+                    </div> <!-- COL-3 FUN FACTS DIV ENDS HERE -->
+
+<!----------------- MUSIC PLAYER CARD -->
+
+                   
+                    <div class="col-3 col-6 third motivation-card">
+
+                        
+                        <div class="title-header">
+                                <h3 class="header-three">Motivation</h3>
+                        </div>
+                           
+                        <div class="motivation-content">
+
+                    
+                            <div class="motive-bar">
+                                <div class="growth">Growth</div>
+                            </div>
+    
+                            <div class="motive-bar">
+                            <div class="impact">Impact</div>
+                            </div>
+    
+                            <div class="motive-bar">
+                            <div class="comfort">Comfort</div>
+                            </div>
+
+                            <div class="motive-bar">
+                                <div class="achievement">Achievement</div>
+                                </div>
+    
+                            <div class="motive-bar">
+                            <div class="collaboration">Collabration</div>
+                            </div>
+
+                            <div class="motive-bar">
+                                <div class="power">Power</div>
+                                </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+                    </div> <!-- COL-3 MUSIC PLAYER DIV ENDS HERE -->
+                
+
+<!----------------- PERSONALITY CARD -->
+
+                        <div class="col-3 col-6 personality-card">
+
+
+                            <div class="title-header">
+                                <h3 class="header-three">Personality</h3>
+                            </div>
+
+                            <div class="personality-content">
+
+                                <div class="label-content">
+                                    <p class="label-text">Introvert</p>
+                                    <p class="label-text">Extrovert</p>
+                                </div>  
+
+                                <div class="slider-range">
+                                    <div class="slider-handler introvert"></div>
+                                    <div class="slider-track"></div>
+                                </div>
+
+
+                                <div class="label-content">
+                                    <p class="label-text">Analytical</p>
+                                    <p class="label-text">Creative</p>
+                                 </div>
+
+                                 <div class="slider-range">
+                                    <div class="slider-handler creative"></div>
+                                    <div class="slider-track"></div>
+                                </div>
+                                
+
+                                <div class="label-content">
+                                    <p class="label-text">Independent</p>
+                                    <p class="label-text">Team Player</p>
+                                </div>
+
+                                <div class="slider-range">
+                                    <div class="slider-handler independent"></div>
+                                    <div class="slider-track"></div>
+                                </div>
+
+                                <div class="label-content">
+                                    <p class="label-text">Adaptible</p>
+                                    <p class="label-text">Inflexible</p>
+                                </div>
+
+                                <div class="slider-range">
+                                    <div class="slider-handler adaptable"></div>
+                                    <div class="slider-track"></div>
+                                </div>
+
+                        </div> <!-- COL-3 PERSONALITY DIV ENDS HERE --> 
+                
+
+                </div> <!-- TOP-ROW-CONTAINER DIV ENDS HERE --> 
+            </div> <!-- ROW DIV ENDS HERE --> 
+
+
+<!-------------------------------- BOTTOM ROW CARDS --------------------------->
+
+            <div class="row">
+
+<!------------ TECHNOLOGY CARD -->
+
+                <div class="col-4 col-12 technology-card">
+
+                    <div class="title-header tech-header">
+                        <h3 class="header-three">Technology Usage</h3>
+
+                        <div class="right-card-tabs">
+                            <button class="tablink" id="defaultOpen">Front-End</button>
+
+                            <button class="tablink" id="ux-tab">UX</button>
+                        </div>
+
+                    </div> <!-- TITLE-HEADER DIV ENDS HERE -->  
+
+               
+                    <div class="technology-content">
+
+                    
+                        <p class="label-text">Visual Studio Code</p>
+                        <div class="container">
+                            <div class="tech visual-studio-code">100%</div>
+                        </div>
+
+                        <p class="label-text">Bootstrap</p>
+                        <div class="container">
+                        <div class="tech bootstrap">70%</div>
+                        </div>
+
+                        <p class="label-text">Github</p>
+                        <div class="container">
+                        <div class="tech github">80%</div>
+                        </div>
+
+                        <p class="label-text">Developer Tools</p>
+                        <div class="container">
+                        <div class="tech dev-tools">90%</div>
+                        </div>
+                    </div>
+                    
+
+
+                    <div class="ux-technology-content">
+
+                        <p class="label-text">Figma</p>
+                        <div class="container">
+                            <div class="tech figma">100%</div>
+                        </div>
+
+                        <p class="label-text">Sketch</p>
+                        <div class="container">
+                        <div class="tech sketch">80%</div>
+                        </div>
+
+                        <p class="label-text">Adobe Creative Suite</p>
+                        <div class="container">
+                        <div class="tech adobe">90%</div>
+                        </div>
+
+                        <p class="label-text">Invision</p>
+                        <div class="container">
+                        <div class="tech invision">70%</div>
+                        </div>
+
+                    </div>
+
+                </div> <!-- COL-3 TECHNOLOGY-CARD DIV ENDS HERE --> 
+
+
+<!------------ EXPERTISE CARD -->
+                       
+
+                <div class="col-8 col-12 expertise-card">
+
+                    <div class="title-header">
+                        <h3 class="header-three expertise-header">Expertise </h3>
+                    </div>
+
+                    <table>
+                        <div class="table-container">
+
+                            <thead>
+                                <tr>
+                                    <th scope="col">Skills <i class="fas fa-sort"></i></th>
+
+                                    <th scope="col">Experience<i class="fas fa-sort"></i></th>
+
+                                    <th scope="col">Proficiency<i class="fas fa-sort"></i></th>
+
+                                </tr>
+
+                                <tr>
+                                    <td>UX Design</td>
+                                    <td>4 Years</td>
+                                    <td class="proficiency">
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle"></span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Visual Design</td>
+                                    <td>10 Years</td>
+                                    <td class="proficiency">
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle"></span>
+                                    </td>
+
+                                </tr>
+
+                                <tr>
+                                    <td>Interaction Design</td>
+                                    <td>2 years</td>
+                                    <td class="proficiency">
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle grey-circle"></span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>HTML & CSS</td>
+                                    <td>6 months</td>
+                                    <td class="proficiency">
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle"></span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Javascript & jQuery</td>
+                                    <td>6 Months</td>
+                                    <td class="proficiency">
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle grey-circle"></span>
+                                        <span class="skill-circle grey-circle"></span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Testing & Debugging</td>
+                                    <td>6 Months</td>
+                                    <td class="proficiency">
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle"></span>
+                                        <span class="skill-circle grey-circle"></span>
+                                    </td>
+                                </tr>
+
+                            </thead>
+
+                           
+                        </div>                      
+                    </table>
+                    <span class="date">* As of | 2020 | 04</span>
+
+                </div> <!-- COL-9 EXPERTISE-CARD DIV ENDS HERE --> 
+
+       </div> <!-- MAIN-CONTAINER DIV ENDS HERE --> 
+   </main>
+
+
+
+
+
+
+
+
+
+
+    </div>  <!-- CONTAINER DIV ENDS HERE -->
+</body>
+</html>
