@@ -642,7 +642,7 @@ h1 {
 
 .growth,
 .impact,
-.comfort,
+.incentives,
 .achievement,
 .collaboration,
 .power {
@@ -662,18 +662,22 @@ h1 {
 
 .impact {
     width: 90%;
-    background-color: var(--purple);
+    background-color: var(--light-gray);
+    color:#000000;
+    font-weight: 500;
  }
 
- .comfort {
-    width: 50%;
+ .incentives {
+    width: 70%;
     background-color: var(--blue);
  }
 
 
  .achievement {
     width: 80%;
-    background-color: var(--purple);
+    background-color: var(--light-gray);
+    color:#000000;
+    font-weight: 500;
 
  }
 
@@ -685,7 +689,9 @@ h1 {
 
  .power {
     width: 30%;
-    background-color: var(--purple);
+    background-color: var(--light-gray);
+    color:#000000;
+    font-weight: 500;
 
  }
  
