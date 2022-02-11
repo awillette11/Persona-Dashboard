@@ -63,6 +63,7 @@ p {
  
 :root {
     --blue: #323552;
+    --blueHover: #212338;
     --accent-blue: #2F80ED;
     --purple: #9948FF;
     --yellow: #FBAE17;
@@ -166,7 +167,7 @@ p {
 
 
 .sidebar-link:hover {
-    background-color: #212338;
+    background: var(--blueHover);
     font-size: 1.5rem;
     transition: all 0.5s;
     color: var(--white);
@@ -875,18 +876,18 @@ h1 {
 
     .bootstrap {
         width: 70%; 
-        background-color:#323552;
+        background-color: var(--blue);
     }
 
 
     .github {
         width: 80%; 
-        background-color:#323552;
+        background-color: var(--blue);
     } 
 
     .dev-tools {
         width: 90%; 
-        background-color:#323552;    
+        background-color: var(--blue);
     }
 
 
@@ -897,18 +898,18 @@ h1 {
 
     .sketch {
         width: 80%; 
-        background-color:#323552;
+        background-color: var(--blue);
     }
 
 
     .adobe {
         width: 90%; 
-        background-color:#323552;
+        background-color: var(--blue);
     } 
 
     .invision {
         width: 70%; 
-        background-color:#323552;    
+        background-color: var(--blue);
     }
 
 
