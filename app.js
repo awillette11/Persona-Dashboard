@@ -14,7 +14,7 @@ $("#ux-tab").on("click",function() {
   });
   
   $("#ux-tab").click(function(){
-  $("#ux-tab").css("border-bottom", ".4rem solid #FBAE17");
+  $("#ux-tab").css("border-bottom", ".4rem solid #0a0d2c");
   });
   
   $("#ux-tab").click(function(){
@@ -36,7 +36,7 @@ $("#ux-tab").on("click",function() {
   });
   
   $("#defaultOpen").click(function(){
-  $("#defaultOpen").css("border-bottom", ".4rem solid #FBAE17");
+  $("#defaultOpen").css("border-bottom", ".4rem solid #0a0d2c");
   });
   
   $("#defaultOpen").click(function(){
